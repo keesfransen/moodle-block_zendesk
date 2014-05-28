@@ -1,0 +1,9 @@
+{
+  "moodle-block_zendesk-zendesk": {
+    "requires": [
+        "base",
+        "node",
+        "stylesheet"
+    ]
+  }
+}

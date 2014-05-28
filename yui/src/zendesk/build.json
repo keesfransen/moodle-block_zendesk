@@ -1,0 +1,10 @@
+{
+  "name": "moodle-block_zendesk-zendesk",
+  "builds": {
+    "moodle-block_zendesk-zendesk": {
+      "jsfiles": [
+        "zendesk.js"
+      ]
+    }
+  }
+}
