@@ -92,7 +92,7 @@ class block_zendesk extends block_base {
         $config->h_position = get_config('zendesk', 'tab_h_position');
         $config->v_position = get_config('zendesk', 'tab_v_position');
         
-        $zendesk_url = 'https://' . get_config('zendesk', 'domain') . '.zendesk.com';
+        $zendesk_url = 'https://' . get_config('zendesk', 'tab_domain') . '.zendesk.com';
         
         $config->domain  = $zendesk_url;
         $config->user = new stdClass;
